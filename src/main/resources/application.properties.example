@@ -1,4 +1,9 @@
 
+# Configurações do Postgres
 spring.datasource.url=
 spring.datasource.username=
 spring.datasource.password=
+
+# Configurações do Flyway
+spring.flyway.enabled=true
+spring.flyway.locations=classpath:db/migrations
