@@ -6,5 +6,5 @@ CREATE TABLE candidates (
     password VARCHAR(100) NOT NULL,
     description VARCHAR(255),
     curriculum VARCHAR(255),
-    created_at TIMESTAMP DEFAULT current_timestamp
+    created_at TIMESTAMP DEFAULT current_timestamp NOT NULL
 );
